@@ -11,3 +11,13 @@ Aide :
   - Si la valeur courante est supérieure à 'max', elle devient le nouveau 'max'.
 - Affichez le résultat.
 */
+
+const number = [3, 11, 7, 2, 9, 10];
+
+for (const number1 of number) {
+    console.log(number1);
+}
+
+let max = Math.max(...number);
+
+console.log(`La plus grande valeur de mon tableau est ${max}`);
